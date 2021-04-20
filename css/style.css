@@ -6,6 +6,11 @@
   padding: 0;
 
 }
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
 body {
   -ms-overflow-style: none;
 }
@@ -14,14 +19,14 @@ body {
 }
 
 .wrap {
-  width: 1400px;
+  width: 80%;
   margin: 0 auto;
   /* background-color: #ff0000; */
   /* border: solid 5px #ffff00; */
 }
 
 header {
-  width: 1400px;
+  width: 80%;
   height: 80px;
   margin-top: 00px;
   /* background-color: #00ff00; */
@@ -39,12 +44,16 @@ width: 100%;
 }
 
 .main_menu .logo {
-  margin-right: 800px;
+  margin-right: 35%;
 
 }
+.main_menu li {
+  width: 15%;
+}
+
 .main_menu a  {
   color: #111111;
-  width: 200px;
+  width: 100%;
   height: 40px;
   padding-top: 30px;
   display: inline-block;
@@ -84,35 +93,38 @@ a:hover {
 .con_sel .view_bt {
   display: inline-block;
   margin-top: 500px;
-  margin-right: 50px;
-  width: 300px;
+  margin-right: 4%;
+  width: 18%;
   height: 100px;
   /* background-color: #ff0000; */
 }
 .con_sel .view_bt2 {
   display: inline-block;
-  width: 300px;
   margin-top: 500px;
+  margin-right: 4%;
+  width: 18%;
   height: 100px;
-  margin-right: 50px;
+  /* background-c
   /* background-color: #ff00ff; */
 }
 
 .con_sel .view_bt3 {
   display: inline-block;
-  margin-right: 50px;
-  width: 300px;
   margin-top: 500px;
-
+  margin-right: 4%;
+  width: 18%;
   height: 100px;
+  /* background-c
   /* background-color: #ff00ff; */
 }
 
 .con_sel .view_bt4 {
   display: inline-block;
-  width: 300px;
-  height: 100px;
   margin-top: 500px;
+  /* margin-right: 2%; */
+  width: 18%;
+  height: 100px;
+  /* background-c
   /* background-color: #ff00ff; */
 }
 
@@ -127,6 +139,7 @@ a:hover {
   margin-top: 60px;
   width: 70%;
   height: 1080px;
+  margin: 0 auto;
   /* background-color: #ffff00; */
 }
 
